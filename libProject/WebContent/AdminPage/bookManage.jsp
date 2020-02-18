@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-<%@ taglib tagdir="/WEB-INF/tags" prefix="my"%>
+<%@ taglib tagdir="/WEB-INF/tags" prefix="c"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<my:navbar></my:navbar> 	<%-- WEB-INF/tags/navbar.tag --%>
+	<c:navbar></c:navbar> 	<%-- WEB-INF/tags/navbar.tag --%>
 
 	<div class="container" style = "margin-top:20px; margin-left:25%;">
 		<!-- <div class="col-sm-6 col-md-12"></div>  왜 필요한지 모르겠음 -->
