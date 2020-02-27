@@ -4,11 +4,11 @@ import java.util.Date;
 
 public class Book {
 	Long no;
-	String lib_id;
+	String lib_idid;
 	String title;
 	String auth; 
 	String publ; 
-	Date pyb;
+	String pyb;
 	String call_no;
 	int brch_code;
 	
@@ -18,11 +18,11 @@ public class Book {
 	public void setNo(Long no) {
 		this.no = no;
 	}
-	public String getLib_id() {
-		return lib_id;
+	public String getLib_idid() {
+		return lib_idid;
 	}
-	public void setLib_id(String lib_id) {
-		this.lib_id = lib_id;
+	public void setLib_idid(String lib_idid) {
+		this.lib_idid = lib_idid;
 	}
 	public String getTitle() {
 		return title;
@@ -42,10 +42,10 @@ public class Book {
 	public void setPubl(String publ) {
 		this.publ = publ;
 	}
-	public Date getPyb() {
+	public String getPyb() {
 		return pyb;
 	}
-	public void setPyb(Date pyb) {
+	public void setPyb(String pyb) {
 		this.pyb = pyb;
 	}
 	public String getCall_no() {
